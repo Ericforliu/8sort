@@ -1,0 +1,66 @@
+body{
+	color: azure;
+	background-color: #00000000;
+	position: relative;
+	transform-origin: 0 0 ;
+	overflow: hidden;
+	/*text-align: center;*/
+}
+
+#main{
+	width: calc(100vh);
+	height: calc(100vh);
+	border: 6px solid #FFFFFF55;
+	border-radius: calc(1vw);
+}
+
+#main div{
+	width: calc(33vh);
+	height: calc(33vh);
+	position: absolute;
+}
+
+#main div img{
+	width: calc(33vh);
+	height: calc(33vh);
+	padding: calc(3vh);
+	border-radius: 30%;
+}
+
+#control{
+	position: absolute;
+	width: calc(33vh);
+	height: calc(33vh);
+	top: calc(66vh);
+	left: calc(66vh);
+	font-size: 40px;
+}
+
+button{
+	margin: calc(4vh);
+	width: calc(25vh);
+	height: calc(10.5vh);
+	opacity: 0.7;
+	font-size: calc(3vh) !important;
+	border-radius: 10% !important;
+}
+
+button:hover{
+	opacity: 0.95;
+	font-size: calc(3.2vh) !important;
+}
+
+/*#AutoGame img{*/
+/*	width: calc(16vh);*/
+/*	height: calc(16vh);*/
+/*	padding: calc(3vh);*/
+/*	border-radius: calc(1vh);*/
+/*}*/
+
+
+/*#NewGame img{*/
+/*	width: calc(16vh);*/
+/*	height: calc(16vh);*/
+/*	padding: calc(3vh);*/
+/*	border-radius: calc(1vh);*/
+/*}*/
